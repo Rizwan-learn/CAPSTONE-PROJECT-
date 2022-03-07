@@ -85,6 +85,16 @@ nav {
     overflow: visible;
   }
 
+  nav {
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
   .nav-menu.active {
     left: 0;
     opacity: 0.96;
@@ -133,4 +143,17 @@ nav {
   .social-list {
     display: none;
   }
+}
+
+.head {
+  background-image: url(images/back-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 12% 12%;
+}
+
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
