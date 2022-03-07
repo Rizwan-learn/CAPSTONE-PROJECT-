@@ -79,7 +79,7 @@ nav {
     float: left;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-    background-color: #6070ff;
+    background-color: white;
     margin: 0;
     border-radius: 0;
     overflow: visible;
@@ -110,7 +110,7 @@ nav {
 
   .nav-link {
     position: absolute;
-    color: #fff;
+    color: black;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
