@@ -66,7 +66,25 @@ nav {
   line-height: 44px;
   padding-right: 5%;
   justify-content: space-around;
-  opacity: 0.5;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.my-logo {
+    display: flex;
+    justify-content: start;
+    color: #272a31;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: brown;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -156,4 +174,38 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-left: 20%;
+}
+
+.welcome {
+  color: #ec5242;
+  font-family: 'lato', sans-serif;
+  font-size: 24px;
+  padding-bottom: 2%;
+  padding-top: 10%;
+}
+
+.school {
+  color: #ec5242;
+  font-family: cocogoose, sans-serif;
+  font-size: 40px;
+  padding-bottom: 4%;
+  font-weight: bold;
+}
+
+.intro {
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    font-weight: lighter;
+    font-style: italic;
+    min-width: 50%;
+    max-width: 60%;
+    padding-bottom: 5%;
+}
+
+.soon {
+    font-size: 30px;
+    color: #ec5242;
+    font-weight: bolder;
+    padding-bottom: 20%;
 }
