@@ -18,8 +18,7 @@ header {
 }
 
 nav {
-  padding-top: 80px;
-  display: flex;
+  padding-top: 20px;
 }
 
 .socail-icon {
@@ -37,12 +36,12 @@ nav {
   display: flex;
   justify-content: end;
   gap: 20px;
-  padding: 2%;
   top: 0;
   left: 0;
   right: 0;
   background-color: black;
 }
+
 
 .hamburger {
   display: none;
@@ -58,20 +57,21 @@ nav {
   background-color: rgb(99, 98, 98);
 }
 
+.navbar {
+    position: fixed;
+}
+
 .nav-menu {
-  display: flex;
-  gap: 50px;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 44px;
-  padding-right: 5%;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around; 
 }
 
 .nav-link {
   color: black;
   font-size: 20px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .my-logo {
@@ -140,6 +140,7 @@ nav {
 
   .hamburger {
     display: block;
+    margin-right: 5%;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -208,4 +209,44 @@ nav {
   color: #ec5242;
   font-weight: bolder;
   padding-bottom: 20%;
+}
+
+/* Homepage above, Media quires has been added for responsive display */
+
+.our-program {
+    background-color: #080808;
+    padding: 2%;
+}
+
+.programs-title {
+    color: #ec5242;
+    text-align: center;
+    font-style: bold;
+    padding-bottom: 5%;
+}
+
+.program-cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pro-cards {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    color: #f7f7f9;
+    justify-content: space-around;
+}
+
+.pro-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272a31;
+    gap: 20px;
+}
+
+.pro-discrip {
+    display: flex;
+    text-align: center;
 }
