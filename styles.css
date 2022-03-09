@@ -42,7 +42,6 @@ nav {
   background-color: black;
 }
 
-
 .hamburger {
   display: none;
 }
@@ -58,12 +57,12 @@ nav {
 }
 
 .navbar {
-    position: fixed;
+  position: fixed;
 }
 
 .nav-menu {
-    display: flex;
-    justify-content: space-around; 
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-link {
@@ -214,39 +213,38 @@ nav {
 /* Homepage above, Media quires has been added for responsive display */
 
 .our-program {
-    background-color: #080808;
-    padding: 2%;
+  background-color: #080808;
+  padding: 2%;
 }
 
 .programs-title {
-    color: #ec5242;
-    text-align: center;
-    font-style: bold;
-    padding-bottom: 5%;
+  color: #ec5242;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5%;
 }
 
 .program-cards-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .pro-cards {
-    display: flex;
-    width: auto;
-    justify-content: center;
-    color: #f7f7f9;
-    justify-content: space-around;
+  display: flex;
+  width: auto;
+  color: #f7f7f9;
+  justify-content: space-around;
 }
 
 .pro-card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #272a31;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  gap: 20px;
 }
 
 .pro-discrip {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
