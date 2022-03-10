@@ -160,7 +160,7 @@ nav {
 
   .social-list {
     display: none;
-  }
+  }    
 }
 
 .head {
@@ -212,7 +212,7 @@ nav {
 
 /* Homepage above, Media quires has been added for responsive display */
 
-.our-program {
+.our-porgrams {
   background-color: #080808;
   padding: 2%;
 }
@@ -224,27 +224,94 @@ nav {
   padding-bottom: 5%;
 }
 
-.program-cards-container {
-  display: flex;
-  flex-direction: row;
+.porgram-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
 }
 
-.pro-cards {
-  display: flex;
-  width: auto;
-  color: #f7f7f9;
-  justify-content: space-around;
+.program-discrip {
+    display: flex;
+    justify-content: center;
+    font-size:  10px;
 }
 
-.pro-card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #272a31;
-  gap: 20px;
+.child {
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
 }
 
-.pro-discrip {
-  display: flex;
-  text-align: center;
+.program-title {
+    color: #ec5242;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.program-card {
+    margin: 0 auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px 10px 30px 10px;
+    border: 3px solid #272a32;
+    color: #d3d3d3;
+    background-color: #3f3f3f;
+}
+
+.program-card-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+.program-card {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.porgram-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.program-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+}
+
+.program-title {
+    display: flex;
+
+}
+
+.program-discrip {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.child {
+    display: flex;
+
+    
+}
+
 }
