@@ -270,7 +270,7 @@ nav {
   flex-direction: column;
 }
 
-@media screen and (max-width: 642px ) {
+@media screen and (max-width: 642px) {
   .program-card {
     margin: 0 auto;
     width: auto;
@@ -368,7 +368,6 @@ nav {
   .btn-mobile1 {
     width: 75%;
     margin-left: 10%;
-    margin-left: 40px;
     color: #272a31;
     text-align: center;
     border: 2px solid rgb(194, 193, 193);
@@ -377,7 +376,6 @@ nav {
     align-items: center;
     cursor: pointer;
     margin-bottom: 20px;
-    margin-left: 50px;
   }
 
   .btn-mobile p {
