@@ -254,7 +254,6 @@ nav {
 .program-card {
   margin: 0 auto;
   width: auto;
-  display: grid;
   grid-template-columns: auto;
   justify-content: center;
   text-align: center;
@@ -271,7 +270,7 @@ nav {
   flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 642px ) {
   .program-card {
     margin: 0 auto;
     width: auto;
@@ -306,5 +305,94 @@ nav {
 
   .child {
     display: flex;
+  }
+}
+
+/* Speaker Section */
+@media screen and (max-width: 768px) {
+  .featured-speaker {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .underline-content {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: #ec5242;
+    font-size: 40px;
+  }
+
+  .speakers-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .speakers-content-mobile img {
+    background-position: 10% 10%;
+    width: 150px;
+    margin-right: 4%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .speakers-info h2 {
+    display: flex;
+    justify-content: center;
+    color: #ec5242;
+  }
+
+  .line1 p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .speakers-degree {
+    display: flex;
+    justify-content: center;
+  }
+
+  .speakers-description {
+    display: flex;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .btn-mobile,
+  .btn-mobile1 {
+    width: 75%;
+    margin-left: 10%;
+    margin-left: 40px;
+    color: #272a31;
+    text-align: center;
+    border: 2px solid rgb(194, 193, 193);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+
+  .btn-mobile p {
+    margin: 0;
+  }
+
+  .btn-mobile a {
+    margin: 0;
+    padding: 20px;
+    width: 20%;
+  }
+
+  .btn-mobile i {
+    color: #ec5242;
+    font-weight: 700;
+    font-size: 20px;
   }
 }
