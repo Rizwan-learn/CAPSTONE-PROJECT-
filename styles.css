@@ -371,6 +371,27 @@ nav {
   font-size: 20px;
 }
 
+.speakers-info h2 {
+  display: flex;
+  justify-content: center;
+  color: #ec5242;
+}
+
+.line1 p {
+  display: flex;
+  justify-content: center;
+}
+
+.speakers-degree {
+  display: flex;
+  justify-content: center;
+}
+
+.speakers-description {
+  display: flex;
+  padding-left: 5%;
+}
+
 @media screen and (max-width: 768px) {
   .featured-speaker {
     display: flex;
