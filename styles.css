@@ -309,6 +309,68 @@ nav {
 }
 
 /* Speaker Section */
+
+.featured-speaker {
+  grid-column: center;
+  grid-template-rows: 2fr 2fr;
+  padding: 0 22%;
+  width: 100%;
+  justify-content: center;
+}
+
+.underline-content {
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  color: #ec5242;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.speakers-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-around;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #080808;
+  background-color: #ffff;
+}
+
+.btn-mobile,
+.btn-mobile1 {
+  margin-top: 5%;
+  width: 75%;
+  margin-left: 10%;
+  color: #272a31;
+  text-align: center;
+  border: 2px solid rgb(194, 193, 193);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-mobile p {
+  margin: 0;
+}
+
+.btn-mobile a {
+  margin: 0;
+  padding: 20px;
+  width: 20%;
+}
+
+.btn-mobile i {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .featured-speaker {
     display: flex;
@@ -394,3 +456,56 @@ nav {
     font-size: 20px;
   }
 }
+
+/* sponsored Section  */
+
+.sponsored {
+  background-color: #272a31;
+  color: #d3d3d3;
+  padding-bottom: 35px;
+}
+
+.sponsored h3 {
+    font-family: "Lato", sans-serif;
+    margin-top: 40px;
+    font-weight: 700;
+  }
+  
+  .sponsored-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    font-size: 40px;
+  }
+
+  .sponsored i {
+    padding: 0;
+    cursor: pointer;
+    color: #d3d3d3;
+  }
+
+  /*footer*/
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #d3d3d3;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .footer p {
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .footer h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+  }
