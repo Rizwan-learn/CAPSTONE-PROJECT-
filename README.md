@@ -1,6 +1,7 @@
 # CAPSTONE PROJECT
 
-This site will be used as a Desktop application to show off Rizwan Hasan' protfolio, here he will display all projects that he worked on previously to prove his programming skills.
+This Site will be a full resposive webpage advertising a brand new boot camp opening soon. <br> 
+website will be suitable to both desktop and mobile. <br>
 ______________
 # Built With <br>
 HTML and CSS and javascprt<br>
