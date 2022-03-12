@@ -533,6 +533,23 @@ nav {
   padding-right: 5%;
 }
 
+.about-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #030303;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+}
+
+.about-footer p {
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
 .footer p {
   font-family: "Lato", sans-serif;
   margin-top: 20px;
@@ -545,6 +562,28 @@ nav {
   margin-bottom: 20px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .about-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+  }
 }
 
 /* about page */
