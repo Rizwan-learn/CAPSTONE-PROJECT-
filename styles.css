@@ -563,7 +563,7 @@ nav {
 
 .more-details {
   margin-left: 10%;
-  padding-top: 15%;
+  padding-top: 5%;
   padding-bottom: 100px;
   width: 80%;
   text-align: center;
@@ -572,4 +572,64 @@ nav {
 .details-img {
   width: 250px;
   margin-bottom: 3%;
+}
+
+/* events */
+.event {
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 100px;
+  width: 80%;
+}
+
+.event-info {
+  display: inline-block;
+}
+
+.event-shade {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  height: 20vh;
+}
+
+.event-shade::before {
+  content: "";
+  background: red;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+.event-img1 {
+  background-image: url("images/grads.jpg");
+}
+
+.event-img2 {
+  background-image: url("images/hackerthon.jpg");
+}
+
+.event-date {
+  text-align: center;
+  color: white;
+  z-index: 99;
+  padding: 3%;
+}
+
+.event-date h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.event-date p {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
