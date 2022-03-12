@@ -558,3 +558,18 @@ nav {
 .email a {
   color: hsl(11deg 100% 62%);
 }
+
+/* more details */
+
+.more-details {
+  margin-left: 10%;
+  padding-top: 15%;
+  padding-bottom: 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.details-img {
+  width: 250px;
+  margin-bottom: 3%;
+}
