@@ -4,6 +4,7 @@ body {
   margin: 0%;
   min-width: 320px;
 }
+
 ul {
   list-style: none;
 }
@@ -11,7 +12,6 @@ ul {
 p {
   font-size: 12px;
 }
-
 
 header {
   margin-left: 2%;
@@ -233,6 +233,7 @@ nav {
   justify-content: flex-end;
   padding-right: 5%;
 }
+
 /* Homepage above, Media quires has been added for responsive display */
 
 .our-porgrams {
@@ -403,7 +404,6 @@ nav {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 
 .underline-content {
   text-align: center;
