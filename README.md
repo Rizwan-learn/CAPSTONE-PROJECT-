@@ -57,7 +57,7 @@ Give a ⭐️ if you like this project!
 ___________________
 # Acknowledgments <br>
 Microverse <br>
-Figma <br>
+Cindy Shin  <br>
 
 _________________
 
