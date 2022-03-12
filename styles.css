@@ -147,6 +147,7 @@ nav {
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
+    column-gap: 20px;
     align-items: flex-start;
     display: flex;
     justify-content: space-around;
