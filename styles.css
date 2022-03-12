@@ -327,11 +327,18 @@ nav {
 /* Speaker Section */
 
 .featured-speaker {
-  grid-column: center;
+  grid-row: center;
   grid-template-rows: 2fr 2fr;
-  padding: 0 22%;
   width: 100%;
   justify-content: center;
+}
+
+.speakers-content-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  row-gap: 10px;
 }
 
 .underline-content {
@@ -351,9 +358,6 @@ nav {
   border-radius: 10px;
   justify-content: space-around;
   border-width: 1px;
-  border-style: solid;
-  border-color: #080808;
-  background-color: #ffff;
 }
 
 .btn-mobile,
@@ -412,6 +416,12 @@ nav {
   .featured-speaker {
     display: flex;
     flex-direction: row;
+  }
+
+  .speakers-content-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
   }
 
   .underline-content {
