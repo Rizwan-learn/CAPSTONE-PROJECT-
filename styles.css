@@ -62,31 +62,34 @@ nav {
 
 .nav-menu {
   position: fixed;
-  display: inline-flex;
-  gap: 20px;
   left: 0;
   right: 0;
   background-color: white;
-  justify-content: space-between;
-}
-
-.nav-menu ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 5%;
+  gap: 20px;
 }
 
 .nav-link {
   color: black;
   font-size: 20px;
-  display: inline-flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  z-index: 99;
+  margin-left: 5%;
 }
 
 .my-logo {
   color: #272a31;
   font-size: 20px;
   font-weight: bold;
-  display: flex;
-  justify-content: space-between;
 }
 
 .nav-link:hover {
