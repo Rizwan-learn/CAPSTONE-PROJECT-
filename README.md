@@ -7,7 +7,6 @@ HTML and CSS and javascprt<br>
 HTML and CSS linters - stylelint, webhint, lighthouse eLint- <br>
 Visual Studio and GitHub <br>
 GITHub Page <br>
-Figma Template <br>
 _________________
 # Live Demo 
 Live [Demo Link]( https://rizwan-learn.github.io/CAPSTONE-PROJECT-/) <br>
