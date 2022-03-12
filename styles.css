@@ -378,7 +378,8 @@ nav {
   width: 100%;
   justify-content: center;
   row-gap: 30px;
-  column-gap: 118px;
+  column-gap: 70px;
+  padding-bottom: 5%;
 }
 
 .speakers-content-desktop p {
@@ -393,6 +394,17 @@ nav {
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.underline-content {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  color: #ec5242;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 @media screen and (max-width: 768px) {
@@ -503,6 +515,8 @@ nav {
   font-family: "Lato", sans-serif;
   margin-top: 40px;
   font-weight: 700;
+  text-align: center;
+  padding-top: 2%;
 }
 
 .sponsored-icon {
@@ -616,27 +630,39 @@ nav {
 .more-details {
   margin-left: 10%;
   padding-top: 5%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   width: 80%;
   text-align: center;
 }
 
 .details-img {
   width: 250px;
-  margin-bottom: 3%;
+}
+
+.details-para {
+  font-size: 15px;
+  max-width: 90%;
+  padding-left: 15%;
 }
 
 /* events */
 .event {
   text-align: center;
   margin-left: 10%;
-  padding-top: 5%;
-  padding-bottom: 100px;
   width: 80%;
 }
 
+.event-para {
+  font-size: 15px;
+  max-width: 90%;
+  padding-left: 15%;
+}
+
 .event-info {
-  display: inline-block;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .event-shade {
