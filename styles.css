@@ -85,6 +85,8 @@ nav {
   color: #272a31;
   font-size: 20px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-link:hover {
