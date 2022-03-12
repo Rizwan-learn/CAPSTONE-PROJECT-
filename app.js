@@ -176,3 +176,74 @@ Btn[0].addEventListener('click', () => {
     speakerSectionMobile(0);
   });
 });
+
+const speakerSectionDesktop = document.createElement('div');
+speakerSectionDesktop.classList.add('speakers-content-global');
+
+function speakerSectionGlobal(number) {
+  featuredSpeaker.appendChild(speakerSectionDesktop);
+  speakerSectionDesktop.innerHTML = `
+                <div class="underline-content">
+                <h3>Featured Speakers</h3>
+                <div class="line"></div>
+                </div>
+                <div class="speakers-content-desktop">
+                <div class="speakers-info-desktop">
+                <img src=${speakers[number].img}>
+                <div>
+                <h2>${speakers[number].name}</h2>
+                <p class="speakers-degree">${speakers[number].degree}</p>
+                <div class="line1"></div>
+                <p>${speakers[number += 1].description}</p>
+                </div>
+                </div>
+                <div class="speakers-info-desktop">
+                <img src=${speakers[number].img}>
+                <div>
+                <h2>${speakers[number].name}</h2>
+                <p class="speakers-degree">${speakers[number].degree}</p>
+                <div class="line1"></div>
+                <p>${speakers[number += 1].description}</p>
+                </div>
+                </div>
+                <div class="speakers-info-desktop">
+                <img src=${speakers[number].img}>
+                <div>
+                <h2>${speakers[number].name}</h2>
+                <p class="speakers-degree">${speakers[number].degree}</p>
+                <div class="line1"></div>
+                <p>${speakers[number += 1].description}</p>
+                </div>
+                </div>
+                <div class="speakers-info-desktop">
+                <img src=${speakers[number].img}>
+                <div>
+                <h2>${speakers[number].name}</h2>
+                <p class="speakers-degree">${speakers[number].degree}</p>
+                <div class="line1"></div>
+                <p>${speakers[number += 1].description}</p>
+                </div>
+                </div>
+                <div class="speakers-info-desktop">
+                <img src=${speakers[number].img}>
+                <div>
+                <h2>${speakers[number].name}</h2>
+                <p class="speakers-degree">${speakers[number].degree}</p>
+                <div class="line1"></div>
+                <p>${speakers[number += 1].description}</p>
+                </div>
+                </div>
+                <div class="speakers-info-desktop">
+                <img src=${speakers[number].img}>
+                <div>
+                <h2>${speakers[number].name}</h2>
+                <p class="speakers-degree">${speakers[number].degree}</p>
+                <div class="line1"></div>
+                <p>${speakers[number].description}</p>
+                </div>
+                </div>
+                </div>
+                </div>
+`;
+}
+speakerSectionGlobal(0);
