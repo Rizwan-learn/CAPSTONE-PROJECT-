@@ -113,6 +113,10 @@ nav {
     overflow: visible;
   }
 
+  .logo {
+    display: none;
+  }
+
   nav {
     padding: 0;
   }
