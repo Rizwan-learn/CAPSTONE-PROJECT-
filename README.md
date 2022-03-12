@@ -10,7 +10,7 @@ GITHub Page <br>
 Figma Template <br>
 _________________
 # Live Demo 
-Live [Demo Link]( https://rizwan-learn.github.io/CAPSTONE-PROJECT-/)
+Live [Demo Link]( https://rizwan-learn.github.io/CAPSTONE-PROJECT-/) <br>
 Live [explanation Video Link](https://www.loom.com/share/666c937281e848b7a4cc9538011cbdaa)
 This will give an overview of what the website is about.
 
